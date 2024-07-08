@@ -2,8 +2,8 @@ import os
 from PIL import Image, ExifTags
 
 # Source and destination folders
-SOURCE_DIR = r"C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\raw_images"
-DEST_DIR = r"C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\dataset\images"
+SOURCE_DIR = r"D:\github\ADOS_2024\pothole_detection\dataset\images"
+DEST_DIR = r"D:\github\ADOS_2024\pothole_detection\dataset\images"
 
 # Check if source directory exists
 if not os.path.isdir(SOURCE_DIR):

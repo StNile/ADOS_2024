@@ -34,7 +34,9 @@ def rename_images_sequentially(directory):
         print(f"Renamed {src} to {dst}")
 
 if __name__ == "__main__":
-    input_directory = r'C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\raw_images'
+    #D:\github\ADOS_2024\pothole_detection\dataset\images
+    #nema vise tog foldera
+    input_directory = r'D:\github\ADOS_2024\pothole_detection\dataset\images'
     
     # Step 1: Rename images to random 10-character strings
     rename_images_to_random(input_directory)

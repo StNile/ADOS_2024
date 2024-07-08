@@ -3,8 +3,9 @@ import glob
 import os
 
 # Putanje do modela
-model_best_path = r"C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\runs\detect\train\weights\best.pt"
-model_last_path = r"C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\runs\detect\train\weights\last.pt"
+#D:\github\ADOS_2024\pothole_detection\runs\detect\train\weights
+model_best_path = r"D:\github\ADOS_2024\pothole_detection\runs\detect\train\weights\best.pt"
+model_last_path = r"D:\github\ADOS_2024\pothole_detection\runs\detect\train\weights\last.pt"
 
 # Provera postojanja modela
 if not os.path.exists(model_best_path):
@@ -23,7 +24,8 @@ except Exception as e:
     exit()
 
 # Putanja do test skupa podataka
-test_images_path = r'C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\dataset\images\test\*.jpg'
+#D:\github\ADOS_2024\pothole_detection\dataset\images\test
+test_images_path = r'D:\github\ADOS_2024\pothole_detection\dataset\images\test\*.jpg'
 test_images = glob.glob(test_images_path)
 if not test_images:
     print(f"No test images found at {test_images_path}")

@@ -75,6 +75,8 @@ def annotate_images(input_dir, output_dir):
         cv2.destroyAllWindows()
 
 if __name__ == '__main__':
-    input_directory = r'C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\dataset\images'
-    output_directory = r'C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\dataset\labels'
+    #D:\github\ADOS_2024\pothole_detection\dataset\images
+    #D:\github\ADOS_2024\pothole_detection\dataset\labels
+    input_directory = r'D:\github\ADOS_2024\pothole_detection\dataset\images'
+    output_directory = r'D:\github\ADOS_2024\pothole_detection\dataset\labels'
     annotate_images(input_directory, output_directory)

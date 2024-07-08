@@ -50,7 +50,8 @@ def distribute_files(image_dir, label_dir, base_dir, train_ratio=0.8, val_ratio=
     copy_files(test_labels, label_dir, os.path.join(base_dir, 'labels', 'test'))
 
 if __name__ == '__main__':
-    base_directory = r'C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\dataset'
+    #D:\github\ADOS_2024\pothole_detection\dataset
+    base_directory = r'D:\github\ADOS_2024\pothole_detection\dataset'
     image_directory = os.path.join(base_directory, 'images')
     label_directory = os.path.join(base_directory, 'labels')
 
